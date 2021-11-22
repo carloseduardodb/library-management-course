@@ -11,7 +11,7 @@ class AuthorBooksController extends Controller
     /**
      * @param \Illuminate\Http\Request $request
      * @param \App\Models\Author $author
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\Responses
      */
     public function index(Request $request, Author $author)
     {
